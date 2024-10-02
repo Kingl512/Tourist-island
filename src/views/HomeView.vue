@@ -1,35 +1,37 @@
 <template>
-  <header>
-    <nav>
-      <div class=”logo”></div>
-      <div>touristsanisland.co/default</div>
-    </nav>
-  </header>
+  <div style="padding: 2rem;">
+    <header>
+      <nav>
+        <div class=”logo”></div>
+        <div>touristsanisland.co/default</div>
+      </nav>
+    </header>
 
-  <main>
-    <section id=”image”>
-      <p>Image</p>
-    </section>
+    <main>
+      <section id=”image”>
+        <p>Image</p>
+      </section>
 
-    <div class=”buttons”>
-      <button>Ver mapa</button>
-      <button>Compartir</button>
-    </div>
+      <div class=”buttons”>
+        <button @click="$router.push('/map')">Ver mapa</button>
+        <button>Compartir</button>
+      </div>
 
-    <article>
-      <h1>Título del artículo</h1>
-      <p>Este es un párrafo de ejemplo que describe el contexto histórico del sitio de san andres</p>
-    </article>
+      <article>
+        <h1>Título del artículo</h1>
+        <p>Este es un párrafo de ejemplo que describe el contexto histórico del sitio de san andres</p>
+      </article>
 
-    <figure>
-      <!-- <img src=”@/assets/talimagen.png” alt=”image” width=”300”> -->
-      <figcaption>image description</figcaption>
-    </figure>
-  </main>
+      <figure>
+        <!-- <img src=”@/assets/talimagen.png” alt=”image” width=”300”> -->
+        <figcaption>image description</figcaption>
+      </figure>
+    </main>
 
-  <footer>
-    <!--Contenido del pie de página -->
-  </footer>
+    <footer>
+      <!--Contenido del pie de página -->
+    </footer>
+  </div>
 </template>
 
 <style scoped>
