@@ -6,7 +6,15 @@
         layer-type="base"
         name="OpenStreetMap"
       ></l-tile-layer>
-      <l-marker v-for="marker in markers" :key="marker.name" :lat-lng="marker.position">
+      <l-marker
+        v-for="marker in markers"
+        :key="marker.name"
+        :lat-lng="marker.position"
+      >
+        <l-icon
+          icon-url="Logotipo.png"
+          :icon-size="[64, 40]"
+        ></l-icon>
         <l-popup>{{ marker.name }}</l-popup>
       </l-marker>
     </l-map>
@@ -15,7 +23,7 @@
 
 <script setup>
 import 'leaflet/dist/leaflet.css'
-import { LMap, LTileLayer, LMarker, LPopup } from '@vue-leaflet/vue-leaflet'
+import { LMap, LTileLayer, LMarker, LPopup, LIcon } from '@vue-leaflet/vue-leaflet'
 import { ref } from 'vue'
 
 const map = ref(null)
