@@ -2,7 +2,7 @@
   <div id="map" class="map-container">
     <l-map ref="map" v-model:zoom="zoom" v-model:center="center" :useGlobalLeaflet="false">
       <l-tile-layer
-        url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+        url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
         layer-type="base"
         name="OpenStreetMap"
       ></l-tile-layer>
@@ -12,8 +12,8 @@
         :lat-lng="marker.position"
       >
         <l-icon
-          icon-url="Logotipo.png"
-          :icon-size="[64, 40]"
+          icon-url="icono.png"
+          :icon-size="[64, 50]"
         ></l-icon>
         <l-popup>{{ marker.name }}</l-popup>
       </l-marker>

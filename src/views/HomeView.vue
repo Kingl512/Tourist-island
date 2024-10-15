@@ -3,7 +3,7 @@
     <header>
       <nav>
         <div class=”logo”></div>
-        <div>touristsanisland.co/default</div>
+        <div>TOURIST ISLAND</div>
       </nav>
     </header>
 
@@ -18,7 +18,17 @@
       </div>
 
       <article>
-        <h1>Título del artículo</h1>
+        <h1>Cueva de Morgan</h1>
+        <p>Este es un párrafo de ejemplo que describe el contexto histórico del sitio de san andres</p>
+      </article>
+
+      <article>
+        <h1>Hoyo Soplador</h1>
+        <p>Este es un párrafo de ejemplo que describe el contexto histórico del sitio de san andres</p>
+      </article>
+
+      <article>
+        <h1>Playas de San Luis</h1>
         <p>Este es un párrafo de ejemplo que describe el contexto histórico del sitio de san andres</p>
       </article>
 
