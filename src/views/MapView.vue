@@ -27,19 +27,19 @@ import { LMap, LTileLayer, LMarker, LPopup, LIcon } from '@vue-leaflet/vue-leafl
 import { ref } from 'vue'
 
 const map = ref(null)
-const center = ref([12.57858, -81.69973])
+const center = ref([12.5766924, -81.7154752])
 const zoom = ref(12)
 
 const markers = ref([
-  { name: 'Johnny Cay' , position: [12.5953, -81.6994] },
-  { name: ' Acuario', position: [12.5578, -81.6976] },
-  { name: 'Cueva de Morgan', position: [12.5465, -81.7208] },
-  { name: 'Hoyo Soplador', position: [12.5096,  -81.7164] },
-  { name: 'Playas de San Luis', position: [12.5147, -81.7158] },
-  { name: 'Casa Museo Isleña', position: [12.5390, -81.7161] },
-  { name: 'Salto del Tigre', position: [12.5310, -81.7050] },
-  { name: 'Laguna Big Pond', position: [12.5619, -81.7203] },
-  { name: 'Haines Cay', position: [12.5700, -81.6924] }
+  { name: 'Johnny Cay' , position: [12.5997881, -81.690003] },
+  { name: ' Acuario', position: [12.550639, -81.6881781] },
+  { name: 'Cueva de Morgan', position: [12.5426162 ,-81.7342121] },
+  { name: 'Hoyo Soplador', position: [12.4814156, -81.7337918] },
+  { name: 'Playas de San Luis', position: [12.5215346, -81.7240455] },
+  { name: 'Casa Museo Isleña', position: [12.5602589, -81.7316877] },
+  { name: 'Salto del Tigre', position: [12.527522, -81.7369066] },
+  { name: 'Laguna Big Pond', position: [12.5444192, -81.7107188] },
+  { name: 'Haines Cay', position: [12.5510722, -81.7069466] }
 ])
 </script>
 
