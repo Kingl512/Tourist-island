@@ -82,6 +82,7 @@ nav {
 }
 
 /* Hero Section */
+/*
 #hero {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('@/assets/hero-image.jpg') no-repeat center center/cover;
   color: white;
@@ -89,7 +90,7 @@ nav {
   padding: 3rem 1rem;
   border-radius: 10px;
 }
-
+*/
 #hero h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
