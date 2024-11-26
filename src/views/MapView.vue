@@ -22,7 +22,6 @@
 </template>
 
 <script setup>
-import 'leaflet/dist/leaflet.css'
 import { LMap, LTileLayer, LMarker, LPopup, LIcon } from '@vue-leaflet/vue-leaflet'
 import { ref } from 'vue'
 
